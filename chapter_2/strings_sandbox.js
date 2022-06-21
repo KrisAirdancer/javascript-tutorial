@@ -25,3 +25,16 @@ console.log(result);
 let index = email.indexOf('@');
 console.log(index);
 
+let lastIndex = email.lastIndexOf('o');
+
+result = email.slice(5, 8);
+console.log(result);
+
+result = email.substr(0, 5);
+console.log(result);
+
+result = email.replace('@', '++');
+console.log(result);
+
+
+
