@@ -38,3 +38,4 @@ console.log(result);
 
 
 
+console.log('***** END strings_sandbox *****');
