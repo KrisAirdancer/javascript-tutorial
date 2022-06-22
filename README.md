@@ -1,7 +1,13 @@
 # javascript-tutorial
 My code from The Net Ninja's JavaScript Udemy course. https://www.udemy.com/course/modern-javascript-from-novice-to-ninja/
 
-# Notes
+## Chapters
+
+- Chapter 1: Introduction to the course
+- Chapter 2: JavaScript Basics (syntax, types, etc.)
+- Chapter 3: Control Flow Basics (loops and conditionals)
+
+## Notes
 
 - VSCode Extensions
 	- Live Server - Allows you to preview a webiste in your browser.
