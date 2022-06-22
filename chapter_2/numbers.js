@@ -24,4 +24,4 @@ let concatenation  = 'The webpage got ' + clicks + ' yesterday.';
 console.log(concatenation);
 
 
-console.log('***** END numbers_sandbox *****');
+console.log('***** END numbers *****');
