@@ -33,3 +33,5 @@ My code from The Net Ninja's JavaScript Udemy course. https://www.udemy.com/cour
     - More [here](https://stackoverflow.com/questions/155609/whats-the-difference-between-a-method-and-a-function) 
 - Order of Operations
     - PEMDAS = Parentheses, Exponents, Multiplication, Division, Addition, then Subtraction
+- Functions
+    - A block of code that runs as a single unit. The function can be called by name.
