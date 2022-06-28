@@ -68,4 +68,10 @@ My code from The Net Ninja's JavaScript Udemy course. https://www.udemy.com/cour
     - Primative types are stored on the stack
     - Reference types are stored on the heap
         - A pointer to the object on the heap is stored on the stack (this pointer is stored in a variable)
+- Document Object Model (DOM)
+    - The browser generates an object called the "document" from the HTML. This document is what is displayed as the browser.
+    - The document object contains HTML elements, but also comes with a lot of methods/functions that can be called on the documet object.
+    - The DOM contains an outline of the HTML page that is structured like a tree.
+        - ![DOM Hierarchy](chapter_6\DOM_hierarchy_diagram.png)
+        - The top element in this tree is called the "root node". This is usually the 'html' tag.
     - 
