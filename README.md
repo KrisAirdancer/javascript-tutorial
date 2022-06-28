@@ -105,5 +105,5 @@ My code from The Net Ninja's JavaScript Udemy course. https://www.udemy.com/cour
 - The document object contains HTML elements, but also comes with a lot of methods/functions that can be called on the documet object.
 - The DOM contains an outline of the HTML page that is structured like a tree.
     - <img src="chapter_6/DOM_hierarcy_diagram.png" alt="drawing" width="100"/>
-    - [DOM Hierarchy](chapter_6\DOM_hierarchy_diagram.png)
+    - ![DOM Hierarchy](chapter_6\DOM_hierarchy_diagram.png)
     - The top element in this tree is called the "root node". This is usually the 'html' tag.
