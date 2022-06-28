@@ -1,13 +1,31 @@
 # javascript-tutorial
 My code from The Net Ninja's JavaScript Udemy course. https://www.udemy.com/course/modern-javascript-from-novice-to-ninja/
 
-## Chapters
+# Chapters
 
 - Chapter 1: Introduction to the course
 - Chapter 2: JavaScript Basics (syntax, types, etc.)
 - Chapter 3: Control Flow Basics (loops and conditionals)
+- Chapter 4: Functions & Methods
+- Chapter 5: Object Literals
+- Chapter 6: The Document Object Model (DOM)
+- Chapter 7: Forms & Form Events
+- Chapter 8: Project-Interactive Ninja Quiz
+- Chapter 9: Array Methods
+- Chapter 10: Project - Todo List App
+- Chapter 11: Dates & Times
+- Chapter 12: Async JavaScript
+- Chapter 13: Project - Weather App
+- Chapter 14: Local Storage
+- Chapter 15: Object Oriented JavaScript
+- Chapter 16: Databases (Firebase)
+- Chapter 17: Project - Real-time Chat Room
+- Chapter 18: More ES6 Features
+- Chapter 19: Modern Workflow with Babel & Webpack
+- Chapter 20: Project - UI Library
+- Chapter 21: Using Firebase Database (& Auth) Version 9
 
-## Notes
+# Notes
 
 - VSCode Extensions
 	- Live Server - Allows you to preview a webiste in your browser.
@@ -74,4 +92,3 @@ My code from The Net Ninja's JavaScript Udemy course. https://www.udemy.com/cour
     - The DOM contains an outline of the HTML page that is structured like a tree.
         - ![DOM Hierarchy](chapter_6\DOM_hierarchy_diagram.png)
         - The top element in this tree is called the "root node". This is usually the 'html' tag.
-    - 
