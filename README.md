@@ -104,5 +104,16 @@ My code from The Net Ninja's JavaScript Udemy course. https://www.udemy.com/cour
 - The browser generates an object called the "document" from the HTML. This document is what is displayed as the browser.
 - The document object contains HTML elements, but also comes with a lot of methods/functions that can be called on the documet object.
 - The DOM contains an outline of the HTML page that is structured like a tree.
-    - <img src="chapter_6/DOM_hierarchy_diagram.png" alt="a gif recording of my project in use" width="20%">
+    - <img src="chapter_6/images/DOM_hierarchy_diagram.png" width="20%">
     - The top element in this tree is called the "root node". This is usually the 'html' tag.
+
+**Node Relations**
+
+- A "node tree" is a visual representation of the DOM.
+- Siblings
+  - Nodes that share a parent node.
+  - <img src="chapter_6/images/sibling_relationship.png" width="20%">
+- Parent-Child
+  - A node with sub-nodes is a parent and the sub-nodes are children.
+  - <img src="chapter_6/images/parent_child_relationship.png" width="20%">
+- 
