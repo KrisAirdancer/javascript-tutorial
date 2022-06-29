@@ -1,4 +1,5 @@
 // QUERYING THE DOM
+// Use with index.html
 
 
 /***** Query Selectors *****/

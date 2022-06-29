@@ -1,4 +1,5 @@
 // ADDING AND CHANGING PAGE CONTENT
+// Use with index.html
 
 // Here, we learn to change the text inside of document (HTML) elements on a page.
 
