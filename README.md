@@ -116,4 +116,15 @@ My code from The Net Ninja's JavaScript Udemy course. https://www.udemy.com/cour
 - Parent-Child
   - A node with sub-nodes is a parent and the sub-nodes are children.
   - <img src="chapter_6/images/parent_child_relationship.png" width="20%">
+
+
+**Event Bubbling**
+
+- Fired events "bubble" up the DOM to the parent element of the element with the event listener. If the parent event also has an event listener, that event listener will fire as well. This continues all the way up the DOM until there are no more parent elements in that lineage. All event listeners encountered this way will be triggered.
+- This behavior can be stopped using the `stopPropagation()` method on the event object.
+  - This stops the bubbling process at that point. That is, bubbling will trigger on that event but none above it.
+
+**Event Delegation**
+
+- This is used to attach event listeners to many elements quickly.
 - 
