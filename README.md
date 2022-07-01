@@ -127,4 +127,13 @@ My code from The Net Ninja's JavaScript Udemy course. https://www.udemy.com/cour
 **Event Delegation**
 
 - This is used to attach event listeners to many elements quickly.
-- 
+
+**Forms & Submit Events**
+
+- JavaScript forms with a submit button fire both a "click" event and a "submit" event when the submit button is clicked.
+- The form is the thing being submitted.
+  - Because of this, we don't attatch the event listener that listens for the "submit" event to the submit button. Instead, we attach the event listener to the form itself.
+  - Plus, b/c of bubbling, the form will catch any events fired in its child elements.
+  - This will catch ALL methods of submitting the form. Including pressing the "Enter" key.
+- The default action when a form is submitted is to refresh the page.
+  - We can prevent this form happening by calling .preventDefault() on the event when it comes into the eventListener. (see submit_events.js)
