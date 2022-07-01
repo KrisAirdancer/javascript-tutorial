@@ -137,3 +137,9 @@ My code from The Net Ninja's JavaScript Udemy course. https://www.udemy.com/cour
   - This will catch ALL methods of submitting the form. Including pressing the "Enter" key.
 - The default action when a form is submitted is to refresh the page.
   - We can prevent this form happening by calling .preventDefault() on the event when it comes into the eventListener. (see submit_events.js)
+
+**The Window Object**
+
+- The window object stores essentially everything that on the frontend of a web application.
+- The window object has many methods that we can use. Such as, `alert()`, `console.log()`, etc.
+  - These methods don't need to be called on the window object (`window.alert()`). They can be called directly, `alert()`.
