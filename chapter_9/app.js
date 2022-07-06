@@ -121,3 +121,85 @@ const firstHighScore = scores.find(score => {
 });
 
 console.log(firstHighScore);
+
+
+// .dort() method
+
+const moreScores = [34, 45, 1, 23, 4, 9, 90];
+
+const firstNames = ['mario', 'shaun', 'chun-li', 'yoshi', 'luigi'];
+
+const playersList = [
+  {name: 'mario', score: 20},
+  {name: 'luigi', score: 10},
+  {name: 'chun-li', score: 50},
+  {name: 'yoshi', score: 30},
+  {name: 'shaun', score: 70}
+];
+
+// Sorts the array. This is destructive: It changes the original array.
+firstNames.sort();
+console.log(firstNames);
+
+// .sort() only sorts numbers by the first digit. So 9 will come after 23.
+moreScores.sort();
+console.log(moreScores);
+
+// Sorts the names from largest to smallest
+firstNames.reverse();
+console.log(firstNames); 
+
+// Resolving the 9 after 23 .sort() issue.
+// .sort() doesn't know what to sort by and defaults to something basic. If we want different behavior, we have to specify it.
+// We provide a function called the "compare" function - this is basically a comparator.
+// a and b are the parameters for the compare function. The arrow function being passed is the compare function.
+// The comparator function returns -1, 0, or 1. If a comes first, we return -1; if b first, return 1; and if a === b, 0.
+playersList.sort((a,b) => {
+    if (a.score > b.score) {
+        return -1;
+    } else if (a.score < b.score) {
+        return 1;
+    } else {
+        return 0;
+    }
+});
+
+console.log(playersList);
+
+// This is equivalent to the above sort() statement. b/c the values that are returned don't have to be 1 or -1 they just need to be positive or negative.
+playersList.sort((a,b) => b.score - a.score);
+
+console.log(playersList);
+
+// This sorts the array without the 9 after 23 issue.
+moreScores.sort((a,b) => a - b);
+console.log(moreScores);
+
+
+// Method chaining
+
+const moreProducts = [
+    {name: 'gold star', price: 30},
+    {name: 'green shell', price: 10},
+    {name: 'red shell', price: 40},
+    {name: 'banana skin', price: 5},
+    {name: 'mushroom', price: 50}
+  ];
+
+  // Before chaining
+
+  const filtered = moreProducts.filter(product => product.price > 20);
+
+  const promos = filtered.map(product => {
+      return `The ${product.name} is ${product.price / 2} pounds.`;
+  });
+
+  console.log(promos);
+
+  // With chaining
+
+  const chainedPromos = moreProducts
+    .filter(product => product.price > 20)
+    .map(product => `The ${product.name} is ${product.price / 2} pounds.`);
+
+console.log(chainedPromos);
