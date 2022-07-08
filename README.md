@@ -143,3 +143,15 @@ My code from The Net Ninja's JavaScript Udemy course. https://www.udemy.com/cour
 - The window object stores essentially everything that on the frontend of a web application.
 - The window object has many methods that we can use. Such as, `alert()`, `console.log()`, etc.
   - These methods don't need to be called on the window object (`window.alert()`). They can be called directly, `alert()`.
+
+**Async JavaScript**
+
+- "Start something now, finish it later"
+- Basic asycn JS involves passing callback functions to synchronous functions. The callback function runs asynchronously even after the outer function has completed.
+  - Essentially, the outer function is just used to call (start) the callback function.
+  - The callback function runs in a separate thread from the main program.
+- HTTP Requests
+  - A browser makes a request.
+  - The server recieves the request and sends back a response (data).
+  - A route to a website is an API endpoint.
+  - 
