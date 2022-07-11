@@ -154,4 +154,3 @@ My code from The Net Ninja's JavaScript Udemy course. https://www.udemy.com/cour
   - A browser makes a request.
   - The server recieves the request and sends back a response (data).
   - A route to a website is an API endpoint.
-  - 
